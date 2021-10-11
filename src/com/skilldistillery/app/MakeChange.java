@@ -114,7 +114,7 @@ public class MakeChange {
 				System.out.printf("\nYour change is: $%.2f\n", change);
 				System.out.println("\nGiven back to you in the following bills and or coins.\n");
 
-				hundredDollars = (int) (change / 50);
+				hundredDollars = (int) (change / 100);
 				if (hundredDollars > 0) {
 					change = change % 100;
 					if (hundredDollars > 1) {
